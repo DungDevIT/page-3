@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nordic Rose - Blog Post</title>
+    <!-- Link to CSS style -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <!-- link css reset -->
+    <link rel="stylesheet" href="./CSS/reset.css" />
+
+    <!-- link css responsive -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Link to Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img
+          src="./img/NORDIC ROSE.png"
+          alt="Nordic Rose Logo"
+          class="header__logo-image"
+        />
+      </a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <img src="./img/Group 50.png" alt="Menu Icon" />
+      </label>
+      <nav class="header__nav">
+        <a href="#" class="header__nav-link active">Blog</a>
+        <a href="#" class="header__nav-link">About</a>
+        <a href="#" class="header__nav-link">Links</a>
+        <a href="#" class="header__nav-link">Projects</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__container">
+        <h2 class="hero__title">
+          A few words about this blog platform, Ghost, and how this site was
+          made
+        </h2>
+        <p class="hero__subtitle">
+          Why Ghost (& Figma) instead of Medium, WordPress or other options?
+        </p>
+        <div class="hero__image">
+          <img src="./img/image 2.png" alt="Illustrative Image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main class="main-content">
+      <div class="container">
+        <div class="main-content__header">
+          <div class="main-content__header-border"></div>
+          <div class="main-content__author">
+            <div class="main-content__author-info">
+              <img
+                src="./img/Mask Group.png"
+                alt="Author Avatar"
+                class="author__avatar"
+              />
+              <div class="author__details">
+                <span class="author__name">Mika Matikainen</span>
+                <span class="author__date">Apr 15, 2020 · 4 min read</span>
+              </div>
+            </div>
+            <div class="main-content__author-social">
+              <div class="main-content__author-social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div class="main-content__author-social-divider"></div>
+              <div class="main-content__author-social-icon">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <article class="article">
+          <p class="article__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu
+            velit tempus erat egestas efficitur. In hac habitasse platea
+            dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra
+            quis lacus at viverra. <br />
+            <span
+              >Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In eu
+              dui molestie, molestie lectus eu, semper lectus.</span
+            >
+          </p>
+          <h3 class="article__subheading">Next on the pipeline</h3>
+          <p class="article__text">
+            Duis eu velit tempus erat egestas efficitur. In hac habitasse platea
+            dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra
+            quis lacus at viverra. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. <br />
+            <span
+              >Morbi efficitur auctor metus, id mollis lorem pellentesque id.
+              Nullam posuere maximus dui et fringilla.</span
+            >
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <!-- Article Caption Section -->
+    <div class="article-caption">
+      <img
+        src="./img/Rectangle 8.png"
+        alt="Article Image"
+        class="article-caption__image"
+      />
+      <span class="article-caption__text"
+        >Image caption centered this way and I’ll make this a bit longer to
+        indicate the amount of line-height.
+      </span>
+    </div>
+
+    <div class="list">
+      <div class="container">
+        <p class="article__text">
+          Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad
+          litora torquent per conubia nostra, per inceptos himenaeos. Aliquam
+          quis posuere ligula <br />
+          <span
+            >In eu dui molestie, molestie lectus eu, semper lectus. Proin at
+            justo lacinia, auctor nisl et, consequat ante. Donec sit amet nisi
+            arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id.
+            Nullam posuere maximus dui et fringilla. Nulla non volutpat
+            leo.</span
+          >
+        </p>
+        <p class="list__heading">A list looks like this:</p>
+        <div class="list__items">
+          <div class="list__item">
+            <span>&#9830;</span>
+            <p>First item in the list</p>
+          </div>
+          <div class="list__item">
+            <span class="list__icon">&#9830;</span>
+            <p>
+              Second item in the list lorem ipsum dolor sit amet nunc felis
+              dolor lorem ipsum sit amet
+            </p>
+          </div>
+          <div class="list__item">
+            <span>&#9830;</span>
+            <p>Third item in the list</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Article Footer Section -->
+    <div class="article-footer">
+      <div class="container">
+        <p class="article__text">Thanks for reading, <br />Mika</p>
+        <img src="./img/Group 53.png" alt="" class="article__footer-img" />
+        <div class="article-footer__buttons">
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i> Share on Facebook
+          </a>
+          <div class="border"></div>
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i> Share on Twitter
+          </a>
+        </div>
+        <p class="article-footer__tags">
+          Tags: <span>product design</span>, <span>culture</span>
+        </p>
+        <img src="./img/Line 11.png" alt="" class="article-footer__border" />
+      </div>
+    </div>
+
+    <div class="author-bio">
+      <div class="container">
+        <div class="author-bio__main">
+          <img
+            src="./img/Mask Group.png"
+            alt="Author Image"
+            class="author-bio__image"
+          />
+          <p class="author-bio__description">
+            <span>Mika Matikainen</span> is a Design Founder & Advisor, Berlin
+            School of Creative Leadership Executive MBA participant, Zippie
+            advisor, Wolt co-founder, and Nordic Rose stakeholder.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visual Effect Section -->
+    <div class="visual-effect">
+      <div class="visual-effect__eye">
+        <img src="./img/Group 10.png" alt="" />
+      </div>
+      <div class="visual-effect__line"></div>
+    </div>
+
+    <!-- Blog Recommendation Section -->
+    <section class="blog-recommendation">
+      <h3 class="blog-recommendation__title">What to read next</h3>
+      <div class="blog-recommendation__list">
+        <div class="blog-recommendation__item">
+          <img
+            src="./img/Rectangle 13.png"
+            alt="Content 1"
+            class="blog-recommendation__image"
+          />
+          <h4 class="blog-recommendation__description">
+            Connecting artificial intelligence with digital product design
+          </h4>
+        </div>
+        <div class="blog-recommendation__item">
+          <img
+            src="./img/Rectangle 14.png"
+            alt="Content 1"
+            class="blog-recommendation__image"
+          />
+          <h4 class="blog-recommendation__description">
+            Hello world, or, in other words, why this blog exists
+          </h4>
+        </div>
+        <div class="blog-recommendation__item">
+          <img
+            src="./img/Rectangle 12.png"
+            alt="Content 1"
+            class="blog-recommendation__image"
+          />
+          <h4 class="blog-recommendation__description">
+            Here are some things you should know regarding how we work
+          </h4>
+        </div>
+        <div class="blog-recommendation__item">
+          <img
+            src="./img/Rectangle 37.png"
+            alt="Content 1"
+            class="blog-recommendation__image"
+          />
+          <h4 class="blog-recommendation__description">
+            A few words about this blog platform, Ghost, and how this site was
+            made
+          </h4>
+        </div>
+        <div class="blog-recommendation__item">
+          <img
+            src="./img/Rectangle 39.png"
+            alt="Content 1"
+            class="blog-recommendation__image"
+          />
+          <h4 class="blog-recommendation__description">
+            Updating list of 50+ sources on distributed teams, remote work, and
+            how to make it all work better
+          </h4>
+        </div>
+        <div class="blog-recommendation__item">
+          <img
+            src="./img/Rectangle 23.png"
+            alt="Content 1"
+            class="blog-recommendation__image"
+          />
+          <h4 class="blog-recommendation__description">
+            How modern remote working tools get along with Old School Cowboy's
+            methods
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Subscription Section -->
+    <section class="subscription">
+      <div class="subscription__container">
+        <h4 class="subscription__title">Sign up for the newsletter</h4>
+        <p class="subscription__text">
+          If you want relevant updates occasionally, sign up for the private
+          newsletter. Your email is never shared.
+        </p>
+        <form class="subscription__form">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            required
+            class="subscription__input"
+          />
+          <button type="submit" class="subscription__button">Sign up</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-links">
+          <span>Digital Product Design</span>
+          Remote Work
+          <span class="footer-links__design">UX Design</span>
+          DISTRIBUTED TEAMS
+          <span class="footer-links-creat">CREATIVITY</span>
+          Strategy
+          <span class="footer-links-suspense">SUSPENSE</span>
+          GROWTH
+        </p>
+      </div>
+      <div class="footer-logo">NORDIC ROSE</div>
+      <p class="footer-desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit
+        tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a
+        nunc eget ligula suscipit finibus.
+      </p>
+      <div class="footer-social">
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">RSS</a>
+      </div>
+      <p class="footer-allright">
+        &copy; 2012-2020 Nordic Rose Co. <br />
+        All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
